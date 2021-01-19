@@ -7,7 +7,7 @@ function RandomSentence() {
 
     return (
         <div className="parah" id="parah">
-           {letters.map((letter,index)=>(<span className="letter hj" key={index}>{letter}</span>))}
+           {letters.map((letter,index)=>(<span className="letter" key={index}>{letter}</span>))}
         </div>
     )
 }

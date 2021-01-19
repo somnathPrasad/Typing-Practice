@@ -7,14 +7,20 @@
   margin: 0;
   box-sizing: border-box;
 }
+body{
+  background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+}
 .race-track{
   position: relative;
-  width: 100%;
+  width: 200vh;
   height: 200px;
-  background-color: gray;
+  background-color:rgb(255, 255, 255,.15);
+  backdrop-filter: blur(5px);
   display: flex;
   align-items: center;
-
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 6px;
 }
 .race-car{
   position: absolute;
@@ -27,11 +33,19 @@
   margin-top: 30px;
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
-  font-size:large;
-  background-color: antiquewhite;
+  font-size:2rem;
+  background-color:rgb(255, 255, 255,.15);
+  backdrop-filter: blur(5px);
   padding: 10px;
   border-radius: 3px;
 }
-.active{
+.done{
   background-color: aquamarine;
+}
+.wrong{
+  color:red;
+}
+.typing{
+  background-color: antiquewhite;
+  border-radius: 3px;
 }
