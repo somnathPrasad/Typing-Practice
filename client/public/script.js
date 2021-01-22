@@ -4,7 +4,6 @@ var letters = [];
 
 
 document.addEventListener("keydown",function(event){
-    console.log(letters[count].classList[0])
     if(event.key === typedLetter){
         letters[count].classList.remove("typing")
         if(typedLetter === letters[count].innerHTML){
